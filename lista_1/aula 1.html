@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title> Aula 1 </title>
+    <meta charset="utf-8">
+</head>
+<body>
+<form>
+    <label > Nome:</label><br>
+    <input type="text" id="nome"><br>
+    <label > Pontos:</label><br>
+    <input type="text" id="pontos"><br>
+    <label > Nota:</label><br>
+    <input type="text" id="nota"><br>
+    <label > Universidade:</label><br>
+    <input type="text" id="universidade"><br>
+    <label > Empresas:</label><br>
+    <input type="text" id="empresas"><br>
+    <label > Avatars:</label><br>
+    <input type="text" id="avatars"><br>
+    <label > Horários:</label><br>
+    <input type="text" id="horarios"><br>
+    <input type="submit" value="Finalizar Cadastro" onclick="validar()">
+</form>
+</body>
+<script>
+    function validar(){
+    //alerta ao clicar em finalizar cadastro    alert("Hello World!");
+    let nome=document.getElementById("nome").value;
+    console.log(nome);
+    event.preventDefault();
+    if (nome == ""){
+    alert("Preencha os dados com seu nome");
+}
+
+    let pontos=document.getElementById("pontos").value;
+    console.log(pontos);
+    event.preventDefault();
+    if (pontos == ""){
+    alert("Preencha os pontos"); 
+}
+
+    let nota=document.getElementById("nota").value;
+    console.log(nota);
+    event.preventDefault();
+    if (nota == ""){
+    alert("Preencha sua nota");
+    }
+
+    let universidade=document.getElementById("universidade").value;
+    console.log(universidade);
+    event.preventDefault();
+    if (universidade == ""){
+    alert("Preencha qual é a universidade");  
+}
+
+    let empresas=document.getElementById("empresas").value;
+    console.log(empresas);
+    event.preventDefault();
+    if (empresas == ""){
+    alert("Preencha a empresa");
+}
+
+    let avatars=document.getElementById("avatars").value;
+    console.log(avatars);
+    event.preventDefault();
+    if (avatars == ""){
+    alert("Informe o avatar");
+}
+
+    let horarios=document.getElementById("horarios").value;
+    console.log(horarios);
+    event.preventDefault();
+    if (horarios == ""){
+    alert("Informe o horário");
+}
+}
+</script>
+</html>

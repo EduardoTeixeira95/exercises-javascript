@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>AULA 5</title>
+</head>
+
+<body>
+
+    <label>Nome:</label><br>
+    <input type="text" id="nome"><br>
+    <label>E-mail:</label><br>
+    <input type="text" id="email"><br>
+    <label>Senha:</label><br>
+    <input type="password" id="senha"><br>
+    <label>Confirmar Senha:</label><br>
+    <input type="password" id="confirmarsenha"><br>
+    <input type="submit" value="Cadastrar" onclick="validar()">
+
+
+</body>
+
+<script>
+
+function validar(){
+var nome=document.getElementById("nome").value
+var email=document.getElementById("email").value;
+var senha=document.getElementById("senha").value;
+var confirmarsenha=document.getElementById("confirmarsenha").value;
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function(){
+    if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("response").innerHTML =
+      this.responseText;
+    }
+}   
+xhttp.open("POST","http://52.91.139.190/fsapi/users/auth/register-jwt", true);
+xhttp.setRequestHeader("Content-type", "application/json");
+xhttp.send(JSON.stringify(
+    {
+    "name":nome,
+    "email": email,
+    "password": senha,
+    "confirma_password": confirmarsenha})); 
+
+    event.preventDefault();
+}
+
+</script>
