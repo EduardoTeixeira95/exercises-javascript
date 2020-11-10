@@ -1,24 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <Title>Aula 1 Lista 2</Title>
-
-    <style>
-        
-        
-    </style>
-
-</head>
-
-    
-    
-</style>
 <body>
 
-<label>Vermelho</label><br>
-<input type="button" id="vermelho"><br>
-<label>Verde</label><br>
-<input type="button" id="Verde"><br>
+<h1>Botões Automáticos</h1>
+<title>lista_2 / aula_1</title>
+
+<button type="button" onclick="mudarcor()">Vermelho</button>
+<button type="button" onclick="mudar()">Verde</button>
+
+<script>
+function mudarcor() {
+  document.body.style.backgroundColor = "red";
+  }
+  
+  function mudar(){
+  document.body.style.backgroundColor = "green";   
+  }
+</script>
 
 </body>
+</html>
