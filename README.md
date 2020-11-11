@@ -19,7 +19,7 @@ Dica: para submeter dados json a um servidor web devemos utilizar o content type
 
 aula_5: Após realizar o login considero um diferencial realizar a criação de um  usuário. A API para esse serviço está protegida por mecanismo para autenticação  baseada em token. 
 URL: 
-http://45.55.144.89/fsapi/users/auth/register-jwt 
+http://52.91.139.190/fsapi/users/auth/register-jwt
 Método: 
 POST 
 JSON Exemplo 
