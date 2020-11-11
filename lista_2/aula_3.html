@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+    <p>digite um número</p>
+    <input type="text" id="soma">
+    <p>digite outro número</p>
+    <input type="text" id="soma2"><br>
+    <input type="button" value="calcule" onclick="validar()">
+    <p>resultado</p>
+    <input type="text" id="resultado">
+    
+</body>
+
+<script>
+ function validar(){
+    var num1 = Number(document.getElementById("soma").value);
+    alert(num1);
+    var num2 = Number(document.getElementById("soma2").value);
+    alert(num2);
+    var resultado = 0;
+    //criei a variavel resultado com 0 para caso não valide a regra vai escrever zero
+    if (num1 != null && num1 != undefined && num2 != null && num2 != undefined) {
+    resultado = num1 + num2;}
+    document.getElementById("resultado").value = resultado; 
+ }
+    </script>
