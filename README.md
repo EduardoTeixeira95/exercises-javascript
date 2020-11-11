@@ -41,3 +41,5 @@ Header: Token para autenticação no serviço. Pegar do retorno do login  realiz
 Lista_2
 
 aula_1: Crie dois botões no HTML chamados: 'Verde'e 'Vermelho'. ao clicar neles, o style="background-color: {COR-SELECIONADA}" vai ser alterado dinamicamente Alterar-Style
+
+aula_2: Crie uma função que recebe 2 parâmetros e retorna a soma deles.
