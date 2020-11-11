@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+    <p>digite um número</p>
+    <input type="text" id="soma">
+    <p>digite outro número</p>
+    <input type="text" id="soma2"><br>
+    <input type="button" value="calcule" onclick="validar()">
+    <p>resultado</p>
+    <input type="text" id="resultado">
+    
+</body>
+
+<script>
+ function validar(){
+     
+     var num1 = Number(document.getElementById("soma").value);
+     //declarei number para trazer o numero digitado no input
+     var num2 = Number(document.getElementById("soma2").value);
+     //declarei number para trazer o numero digitado no input
+     var resultado = num1 + num2;
+    // use - para subtrair, * para multiplicar, / para dividir e + para somar 
+     document.getElementById("resultado").value = resultado;    
+    // Neste trecho precisei usar um id para escrever automaticamente o resultado da soma assim que o usuário clicar em Calcule
+     }
+ 
+
+
+
+
+</script>
+
+
