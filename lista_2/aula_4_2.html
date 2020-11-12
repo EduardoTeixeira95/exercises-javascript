@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<form>
+    <label>Digite o ano de nascimento</label><br>
+    <input type="text" id="ano"><br>
+    <button type="submit" onclick="enviar()">Enviar</button>
+    </form>    
+    
+    <script>
+    function enviar(){
+        var ano= document.getElementById("ano").value;
+        var soma= parseInt(ano);
+        if(ano <= 2002){
+            alert("maior de idade")
+        }
+        else if(ano => 2003){
+            alert("menor de idade")
+        }
+    }
+     // Obs: neste exercício eu perdi muito tempo tentando fazer este código funcionar, até que achei uma maneira mais fácil e
+     // mais rápida para chegar no resultado. Mas, o que seria de minha evolução se eu colocar a sujeira por baixo do tapete???
+     // por isso resolvi voltar nele e fazer funcionar !!!!!!
+    </script>
