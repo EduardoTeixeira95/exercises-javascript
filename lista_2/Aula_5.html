@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<body>
+    <input type="text" id="test">
+    <input type="button" onclick="validar()" value="validar">
+
+</body>
+
+<script>
+function validar(){    
+let test = document.getElementById("test").value;
+
+if (test.includes('dota')) { 
+  alert("Verdadeiro")
+}
+else{
+    alert("Falso")
+}
+}
+</script>
+
