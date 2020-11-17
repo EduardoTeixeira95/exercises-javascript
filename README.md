@@ -48,4 +48,8 @@ aula_3: Crie uma função que recebe o ano de nascimento da pessoa informando se
 
 aula_4: Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
 
+aula_5: Crie uma função que informa se tem os caracteres 'dota' no parâmetro informado, exiba um alert em tela caso seja verdadeiro.
+Ex: 'lol é melhor que dota' (verdadeiro)
+Ex: 'lol é melhor que Dark Souls' (falso) / e Falso na vida real tmb.
+
 aula_6: Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule a média destes números digitadas pelo usuário e exiba em uma div.
