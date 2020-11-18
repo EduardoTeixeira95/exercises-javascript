@@ -53,3 +53,7 @@ Ex: 'lol é melhor que dota' (verdadeiro)
 Ex: 'lol é melhor que Dark Souls' (falso) / e Falso na vida real tmb.
 
 aula_6: Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule a média destes números digitadas pelo usuário e exiba em uma div.
+
+Lista_3
+
+aula_1: Crie o seguinte array: var deuses = ['Odin', 'Loki', 'Thor'] E Exiba a quantidade/comprimento que ele tem com a função .length
