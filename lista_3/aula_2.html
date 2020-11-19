@@ -4,12 +4,21 @@
 <body>
     <h2>Deuses Nordicos</h2>
     
-    <p id="nomes"></p>
+    <ul id="nomes"></ul>
     
     <script>
-    var deuses = ['Odin', 'Loki', 'Thor',];
-    document.getElementById("nomes").innerHTML = deuses;
+    var deuses = ['Odin', 'Loki', 'Thor'];
+    var element = document.getElementById("nomes");
     
+    for(var deus of deuses) {
+    var lista = document.createElement("ul");                 
+	var texto = document.createTextNode(deus);
+
+	lista.appendChild(texto);                             
+	element.appendChild(lista);  
+    }
+    //https://www.youtube.com/watch?v=ucfNgEl_Vcw
+    //https://www.w3schools.com/jsref/met_node_appendchild.asp
     </script>
     
     </body>

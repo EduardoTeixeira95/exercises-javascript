@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br"></html>
+
+<body>
+    <h2>Deuses Nordicos</h2>
+    <ul id="nomes"></ul>
+    
+    <script>
+    
+    var deuses = ['Odin','Loki','Thor',];
+    deuses.sort();
+    var element = document.getElementById("nomes");
+    
+    for(var deus of deuses) {
+    var listItem = document.createElement("ul");                 
+	var textItem = document.createTextNode(deus); 
+	listItem.appendChild(textItem);                             
+	element.appendChild(listItem);  
+    }  
+    
+
+    
+
+ 
+
+    </script>
+    
+    </body>
+    </html>
