@@ -57,3 +57,9 @@ aula_6: Peça ao usuário para digitar 5 números em uma caixa de texto. Calcule
 Lista_3
 
 aula_1: Crie o seguinte array: var deuses = ['Odin', 'Loki', 'Thor'] E Exiba a quantidade/comprimento que ele tem com a função .length
+
+aula_2: Com o que foi feito no exercício anterior, exiba todos os nomes, dentro do html: <ul id="nomes"></ul>
+
+aula_3: Seguindo do exercício 02, adicione o .sort para filtrar o array exibido no HTML. alfabeticamente
+
+aula_4: Exiba a quantidade de letras que possuem o texto inserido ao clicar no botão.
