@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br"></html>
-
+<body>
+  <p id="nomes"></p>
+</body>
 <script>
 var deuses = ['Odin', 'Loki', 'Thor',];
 var resultado = deuses.map(function(deuses) {
   return deuses + ' = ' + deuses.length;
 //me explica dps a linha 6 e 7
 });
-console.log(resultado);
+document.getElementById("nomes").innerHTML = resultado;
 
 
 </script>
