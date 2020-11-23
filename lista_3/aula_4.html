@@ -2,17 +2,22 @@
 <html lang="pt-br"></html>
 <body>
 
-<p id="nomes"></p>
+
+<input type="text" id="nomes"><br>
+<input type="button" onclick="enviar()" value="enviar">
+<ul id="nome"></ul>
 
 </body>
 
 
 <script>
-    var deuses = ['Odin', 'Loki', 'Thor'];
-    var resultado = deuses.map(function(deuses) {
-      return deuses + ' = ' + deuses.length;
-    });
-    document.getElementById("nomes").innerHTML = resultado;
+    function enviar(){
+    var deuses = "";
+    var texto = document.getElementById("nomes").value;
+    document.getElementById("nome").innerHTML=texto;
+     
+  
+  }
     
-    
+    //faça um input text, para o usuário digitar os nomes e em seguida ao clicar no botão apareça a informação "nome" na tela e o numero de caracteres  !!!!! 
     </script>
