@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br"></html>
+<html lang="pt-br">
 <body>
 
 
@@ -11,13 +11,21 @@
 
 
 <script>
-    function enviar(){
-    var deuses = "";
-    var texto = document.getElementById("nomes").value;
-    document.getElementById("nome").innerHTML=texto;
-     
-  
+    //function enviar(){
+    //var texto = document.getElementById("nomes").value;
+    //var lista = texto.length;
+    //var notadetexto = document.createTextNode(texto);
+    //texto.appendChild(lista);
+    //document.getElementById("nome").innerHTML(lista);
+    
+  function enviar() {
+  var texto = document.getElementById("nomes").value;
+  var len = texto.length;
+  document.getElementById("nome").innerHTML += '<li>' + texto + ' ' + len + '</li>';
+            
   }
+  
     
     //faça um input text, para o usuário digitar os nomes e em seguida ao clicar no botão apareça a informação "nome" na tela e o numero de caracteres  !!!!! 
     </script>
+    </html>
