@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+
+
+<input type="text" id="nomes"><br>
+<input type="button" onclick="enviar()" value="enviar">
+<ul id="nome"></ul>
+
+</body>
+
+
+<script>
+    function enviar(){
+    var texto = document.getElementById("nomes").value;
+    var lista = texto.length;
+    var notadetexto = document.createElement("li");
+    texto.appendChild(lista);
+    document.getElementById("nome").innerHTML(texto);
+    }
+
+</script>
+</html>
