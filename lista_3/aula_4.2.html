@@ -15,8 +15,10 @@
     var texto = document.getElementById("nomes").value;
     var lista = texto.length;
     var notadetexto = document.createElement("li");
-    texto.appendChild(lista);
-    document.getElementById("nome").innerHTML(texto);
+    var textnode = document.createTextNode(texto + ":" + lista);
+    
+    notadetexto.appendChild(textnode);
+    document.getElementById("nome").appendChild(notadetexto);
     }
 
 </script>
