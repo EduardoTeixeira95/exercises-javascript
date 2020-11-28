@@ -63,3 +63,7 @@ aula_2: Com o que foi feito no exercício anterior, exiba todos os nomes, dentro
 aula_3: Seguindo do exercício 02, adicione o .sort para filtrar o array exibido no HTML. alfabeticamente
 
 aula_4: Exiba a quantidade de letras que possuem o texto inserido ao clicar no botão.
+
+Lista_4
+
+aula_1:
