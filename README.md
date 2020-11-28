@@ -66,4 +66,4 @@ aula_4: Exiba a quantidade de letras que possuem o texto inserido ao clicar no b
 
 Lista_4
 
-aula_1:
+aula_1: Dentro da div com o id 'resultado', escreva 1x ('Repetição')
