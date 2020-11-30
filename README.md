@@ -67,3 +67,9 @@ aula_4: Exiba a quantidade de letras que possuem o texto inserido ao clicar no b
 Lista_4
 
 aula_1: Dentro da div com o id 'resultado', escreva 1x ('Repetição')
+
+aula_1_1: Dentro da div com o id 'resultado', escreva 2x ('Repetição').
+
+aula_1_2: Dentro da div com o id 'resultado', escreva 20x ('Repetição'). (use o 'for')
+
+aula_1_3: Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com forEach)
