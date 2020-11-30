@@ -73,3 +73,7 @@ aula_1_1: Dentro da div com o id 'resultado', escreva 2x ('Repetição').
 aula_1_2: Dentro da div com o id 'resultado', escreva 20x ('Repetição'). (use o 'for')
 
 aula_1_3: Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com forEach)
+
+aula_1_4: Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
+
+aula_2: 
