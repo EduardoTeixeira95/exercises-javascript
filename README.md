@@ -76,4 +76,4 @@ aula_1_3: Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora
 
 aula_1_4: Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora com while)
 
-aula_2: 
+aula_2: Dentro da div com o id 'resultado', escreva os números de 0 ~ 10 (escolha uma das opções utilizado no exercício anterior)
