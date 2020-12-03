@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <body>
+
+        <input type="button" value="clique aqui" onclick="enviar()"><br>
+        <div id="resultado"></div>
+    
+    </body>
+
+    <script>
+        function enviar(){
+            var num =  "";
+            var i ;
+            for (i=2; i<=20; i++)
+            i = i * i;
+            document.getElementById("resultado").innerHTML= i;
+
+
+        }
+    </script>
+    </html>
