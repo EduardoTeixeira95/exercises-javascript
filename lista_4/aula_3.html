@@ -9,11 +9,12 @@
 
     <script>
         function enviar(){
-            var num =  "";
-            var i ;
-            for (i=2; i<=20; i++)
-            i = i * i;
-            document.getElementById("resultado").innerHTML= i;
+            
+            var valor= 2;
+            for(var i = 1; i < 11; i++){
+            document.write(valor +  "=" + (valor * i) + "<br>");
+            }
+            document.getElementById("resultado").innerHTML = valor;
 
 
         }
