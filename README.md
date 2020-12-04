@@ -80,4 +80,11 @@ aula_2: Dentro da div com o id 'resultado', escreva os números de 0 ~ 10 (escol
 
 aula_3: Dentro da div com o id 'resultado', escreva os números pares até 20... (ex 2,4,6...20)
 
-aula_4: Utilizando o map crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
+aula_04 - A partir do seguinte vetor e utilizando os métodos de array (map, reduce, filter e find):
+const usuarios = [
+{ nome: 'Caio', idade: 25, empresa: 'Google' },
+{ nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
+{ nome: 'Felipe', idade: 30, empresa: 'Apple' },
+];
+
+aula_4_1: Utilizando o map crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
