@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<body>
+
+<button onclick="enviar()">Click Aqui</button>
+
+<div id="resultado"></div>
+
+<script>
+var usuarios = [
+{ nome: 'Caio', idade: 25, empresa: 'Google' },
+{ nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
+{ nome: 'Felipe', idade: 30, empresa: 'Apple' },
+];
+
+
+function idade(item) {
+  var nomes = [item.idade].join(" ");
+  return nomes;
+}
+
+function enviar() {
+  document.getElementById("resultado").innerHTML = usuarios.map(idade);
+}
+//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_map3
+</script>
+
+</body>
+</html>
