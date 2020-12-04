@@ -79,3 +79,5 @@ aula_1_4: Dentro da div com o id 'resultado', escreva 5x ('Repetição'). (agora
 aula_2: Dentro da div com o id 'resultado', escreva os números de 0 ~ 10 (escolha uma das opções utilizado no exercício anterior)
 
 aula_3: Dentro da div com o id 'resultado', escreva os números pares até 20... (ex 2,4,6...20)
+
+aula_4: Utilizando o map crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
