@@ -8,23 +8,18 @@
 <div id="resultado"></div>
 
 <script>
+function enviar() {
 const usuarios = [
 { nome: 'Caio', idade: 25, empresa: 'Google' },
 { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
 { nome: 'Felipe', idade: 30, empresa: 'Apple' },
 ];
 
-function empresa(item) {
-  var local = [item.empresa,item.idade].join(" ");
-  return local;
+var output =  usuarios.filter(usuarios => usuarios.empresa == "Apple"); 
+for(var i=0;i<output.length;i++){ 
+   document.write("<h2>", output[i].nome, "," + output[i].idade, "," + output[i].empresa, "</h2>", "<br/>")}; 
 }
 
-function enviar() {
-  document.getElementById("resultado").innerHTML = usuarios.filter(empresa);
-}
-
-//https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_filter
-// verificar a linha 18 pois está dando erro no console 
 </script>
 
 </body>
