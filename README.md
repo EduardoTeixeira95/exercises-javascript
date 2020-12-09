@@ -87,4 +87,8 @@ const usuarios = [
 { nome: 'Felipe', idade: 30, empresa: 'Apple' },
 ];
 
-aula_4_1: Utilizando o map crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
+aula_4_0: Utilizando o map crie uma variável que contenha todas idades dos usuários: [23, 15, 30]
+
+aula_4_1: Utilizando o filter crie uma variáveis que tenha apenas os usuários que trabalham na Apple e com mais de 30 anos: [{ nome: 'Felipe', idade: 30, empresa: 'Apple' }}]
+
+aula_4_2: Utilizando o find crie uma variável que procura por um usuário que trabalhe na empresa Google
