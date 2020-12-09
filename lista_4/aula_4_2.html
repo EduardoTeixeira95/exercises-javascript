@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <body>
-    <button onclick="enviar()">Clique Aqui</button>
 
-    <div id="resultado"></div>
+
+<button onclick="enviar()">Clique Aqui</button>
 
 <script>
+function enviar() {
+
 const usuarios = [
 { nome: 'Caio', idade: 25, empresa: 'Google' },
 { nome: 'Tiago', idade: 35, empresa: 'Microsoft' },
 { nome: 'Felipe', idade: 30, empresa: 'Apple' },
-];   
+];
 
-const busca = usuarios.find( p => p.startsWitch ("Caio"));
+var item = usuarios.find(item => item.empresa === 'Google');
 
-function enviar(){
-    document.getElementById("resultado").innerHTML = busca;
 
+document.write(item.nome);
+// escrever
 }
+
+//https://stackoverflow.com/questions/7364150/find-object-by-id-in-an-array-of-javascript-objects usei como base o exemplo 183
+</script>
+
+</body>
+</html>
     
